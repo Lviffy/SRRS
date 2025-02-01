@@ -93,7 +93,7 @@ contract NFTMarketplace {
     function rarityToString(Rarity _rarity) public pure returns (string memory) {
         if (_rarity == Rarity.Common) return "Common";
         if (_rarity == Rarity.Rare) return "Rare";
-        if (_rarity == Legendary.) return "Legendary";
+        if (_rarity == Rarity.Legendary) return "Legendary";
         if (_rarity == Rarity.Mythic) return "Mythic";
         return "";
     }
